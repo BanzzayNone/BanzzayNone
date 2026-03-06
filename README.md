@@ -31,7 +31,7 @@
 **🔐 Security & Auth**
 ![OAuth](https://img.shields.io/badge/OAuth2.0-Basic-green)
 ![JWT](https://img.shields.io/badge/JWT-Basic-orange)
-![Security Headers](https://img.shields.io/badge/Headers_Basic-red)
+![Security Headers](https://img.shields.io/badge/Security_Headers-Basic-red)
 
 **🤖 Automation & CI/CD**
 ![Playwright](https://img.shields.io/badge/Playwright-Basic-2EAD33?logo=playwright&logoColor=white)

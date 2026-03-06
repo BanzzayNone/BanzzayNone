@@ -7,7 +7,7 @@ def test_page_elements_present(page: Page, login_selectors):
     page.goto("https://opensource-demo.orangehrmlive.com")
     
     # Проверяем наличие всех ключевых элементов
-    expect(page.locator(login_selectors["username_input"])).to_be_visible(timeout=15000) # Таймаут для загрузки, на случай если затянется
+    expect(page.locator(login_selectors["username_input"])).to_be_visible(timeout=15000) 
     expect(page.locator(login_selectors["password_input"])).to_be_visible()
     expect(page.locator(login_selectors["login_button"])).to_be_visible()
     expect(page.locator(login_selectors["login_button"])).to_have_text("Login")
@@ -28,7 +28,7 @@ def test_login_valid_credentials(page: Page, credentials, login_selectors):
     request = request_info.value
     response = request.response()
     assert request.method == "POST"
-    assert response.status == 302 # будет 302, после успешного входа нас перенаправляют
+    assert response.status == 302 # будет 302 вместо 200, так как после успешного входа нас перенаправляют
     # Теперь проверим куки на наличие нужной
     cookies = page.context.cookies()
     auth_cookie = next((c for c in cookies if c.get("name") == "orangehrm"), None)
@@ -67,9 +67,9 @@ def test_login_empty_fields(page: Page, credentials, login_selectors):
 
 def test_login_without_click(page: Page, credentials, login_selectors):
     """Проверка автофокуса на поле ввода логина и реакции на отправку формы по Enter"""
-    page.goto("https://opensource-demo.orangehrmlive.com", timeout=50000)  # Таймаут для загрузки, на случай если затянется - при хорошем интернете удалить
+    page.goto("https://opensource-demo.orangehrmlive.com", timeout=50000)
     # Проверяем автофокус
-    expect(page.locator(login_selectors["username_input"])).to_be_focused(timeout=15000) # Таймаут для загрузки, на случай если затянется - при хорошем интернете удалить
+    expect(page.locator(login_selectors["username_input"])).to_be_focused(timeout=15000)
     # Проверяем реакцию на нажатие клавиши Enter  
     page.locator(login_selectors["username_input"]).press("Enter")
     assert page.locator(login_selectors["username_input"]).get_by_text("required") is not None
