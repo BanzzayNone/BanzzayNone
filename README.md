@@ -34,7 +34,6 @@
 ![Security Headers](https://img.shields.io/badge/Security_Headers-Basic-red)
 
 **🤖 Automation & CI/CD**
-![Playwright](https://img.shields.io/badge/Playwright-Basic-2EAD33?logo=playwright&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Basic-3776AB?logo=python&logoColor=white)
 ![GitLab_CI](https://img.shields.io/badge/GitLab_CI-Learning-FC6D26?logo=gitlab&logoColor=white)
 
