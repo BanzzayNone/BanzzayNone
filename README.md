@@ -12,9 +12,9 @@
 [Учебный проект](https://github.com/BanzzayNone/restful_booker_tests) 
 (будет пополняться)
 
-*    **Локация:** [Нижний Новгород, РФ] | 🕒 **МСК:** [GMT+3]
-*    **Email:** [sedoevk@gmail.com]
-*    **Telegram:** [@BakerCat]
+*    **Локация:** Нижний Новгород, РФ | 🕒 **МСК:** GMT+3
+*    **Email:** sedoevk@gmail.com
+*    **Telegram:** @BakerCat
 
 ---
 <div align="center">
@@ -100,7 +100,7 @@
 </div>
 
 *   **Русский:** Родной
-*   **Английский:** [B1 - Intermediate] (Читаю техническую документацию, понимаю терминологию)
+*   **Английский:** B1 - Intermediate (Читаю техническую документацию, понимаю терминологию)
 
 ---
 
@@ -110,10 +110,10 @@
 </div>
 Я открыт к предложениям:
 
-*    **Email:** [sedoevk@gmail.com]
-*    **Telegram:** [@BakerCat]
+*    **Email:** [sedoevk@gmail.com](тык)
+*    **Telegram:** [@BakerCat](тык)
 
 ---
 <p align="center">
-  <i>Спасибо за внимание к моему профилю! 🚀</i>
+  <i>Спасибо за внимание к моему профилю!</i>
 </p>
